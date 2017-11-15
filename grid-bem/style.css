@@ -1,0 +1,131 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.site{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.masthead {
+  grid-column: 1/7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: #e2e2e2;
+  padding: 11px 0;
+}
+
+.masthead__content {
+  grid-column: 5/6;
+  text-align: right;
+}
+
+.mastnav {
+  grid-column: 2/6;
+}
+
+.header__menu__image{
+  position: absolute;
+  top: 3px;
+}
+
+.header__menu{
+  grid-column: 3/6;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.header__menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__menu .boodschappen__button{
+  float: right;
+  padding: 12px 25px;
+  background-color: #F7A133;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: -12px;
+}
+
+.header__image {
+  grid-column: 1/7;
+  width: 100%;
+}
+
+.sidenav{
+  grid-column: 2/3;
+  margin-top: 20px;
+  margin-bottom: 5000px;
+  padding-right: 25px;
+}
+
+.sidenav__title{
+  font-weight: bold;
+}
+
+.sidenav__underline--orange{
+  border: 2px dashed #F7A133;
+  margin-bottom: 30px;
+}
+
+.sidenav__underline--gray{
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.sidenav__addbutton{
+  padding: 12px 10px;
+  background-color: #F7A133;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#last {
+  margin-bottom: 50px;
+}
+
+.sidenav__link{
+  color: #F7A133
+}
+
+.content{
+  grid-column: 3/6;
+  margin-top: 9px;
+}
+
+.content__title{
+  font-weight: bold;
+  color: #F7A133;
+  font-size: 25px;
+}
+
+.content__underline--orange{
+  border: 2px dashed #F7A133;
+  margin-bottom: 30px;
+}
+
+.content__safebutton{
+  padding: 8px 10px;
+  background-color: #F7A133;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+  margin-right: 10px;
+}
+
+.content__printbutton{
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+}
